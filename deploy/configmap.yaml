@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: order-service-config
+data:
+  MYSQL_USER: root
+  MYSQL_PASSWORD: Test123!
+  MYSQL_HOST: mysql
+  MYSQL_PORT: "3306"
+  MYSQL_DB: order_service
+  ORDER_SERVICE_HTTP_PORT: "8080"
